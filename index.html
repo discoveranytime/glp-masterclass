@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>All the Popular GLP Medications Masterclass</title>
-<meta name="description" content="All the popular GLP medications: 22 compounds from exenatide (2005) to the newest dual and triple agonists — mechanisms, trial numbers, side effects, and how they compare.">
+<title>The Popular GLP Medications Masterclass — Interactive Explainer</title>
+<meta name="description" content="A masterclass on nine popular GLP medications: cagrilintide, dulaglutide, liraglutide, mazdutide, survodutide, retatrutide, semaglutide, tirzepatide, bioglutide — mechanisms, trial numbers, side effects, and how they compare.">
 <script>try{var __t=localStorage.getItem('glpmc-theme');if(__t==='light')document.documentElement.setAttribute('data-theme','light');}catch(e){}</script>
 <style>
 *{box-sizing:border-box; margin:0; padding:0}
@@ -38,6 +38,24 @@ body{
 #progress{position:fixed; top:0; left:0; right:0; height:3px; z-index:300; pointer-events:none}
 #progressFill{height:100%; width:0; background:var(--grad); border-radius:0 3px 3px 0}
 #bg-dots{position:fixed; inset:0; z-index:0; pointer-events:none; width:100%; height:100%}
+/* decorative background typography watermark */
+#bgtext{position:fixed;inset:0;z-index:0;overflow:hidden;pointer-events:none}
+.bgline{position:absolute;left:-25%;width:150%;transform:rotate(-20deg)}
+.bgtrack{display:inline-block;white-space:nowrap;animation:drift var(--spd,120s) linear infinite}
+.bgline.rev .bgtrack{animation-direction:reverse}
+.bgtrack b{font-family:inherit;font-weight:900;letter-spacing:.04em;color:transparent;
+  -webkit-text-stroke:1px var(--sc,rgba(154,143,208,.11))}
+.bgtrack i{font-style:normal;color:transparent;-webkit-text-stroke:1px rgba(170,161,151,.10);margin:0 .7em}
+.w1{--sc:rgba(154,143,208,.12)}
+.w2{--sc:rgba(95,166,152,.12)}
+.w3{--sc:rgba(201,154,78,.12)}
+@keyframes drift{to{transform:translateX(-50%)}}
+@media(max-width:900px){
+  .bgline.mhide{display:none}
+}
+@media (prefers-reduced-motion:reduce){
+  .bgtrack{animation:none}
+}
 [data-theme="light"] #bg-dots{opacity:.55}
 #confetti{position:fixed; inset:0; z-index:390; pointer-events:none; opacity:0; transition:opacity .6s ease}
 #confetti.show{opacity:1}
@@ -283,6 +301,7 @@ footer strong{color:var(--muted)}
 <body>
 <div id="progress" aria-hidden="true"><div id="progressFill"></div></div>
 <svg id="bg-dots" aria-hidden="true"></svg>
+<div id="bgtext" aria-hidden="true"><div class="bgline" style="top:4%;font-size:6rem;--spd:138s"><div class="bgtrack"><span><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i></span><span aria-hidden="true"><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i></span></div></div><div class="bgline rev" style="top:22%;font-size:3.2rem;--spd:106s"><div class="bgtrack"><span><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i></span><span aria-hidden="true"><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i></span></div></div><div class="bgline" style="top:40%;font-size:7rem;--spd:162s"><div class="bgtrack"><span><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i></span><span aria-hidden="true"><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i></span></div></div><div class="bgline rev mhide" style="top:58%;font-size:2.8rem;--spd:119s"><div class="bgtrack"><span><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i></span><span aria-hidden="true"><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i></span></div></div><div class="bgline mhide" style="top:76%;font-size:6rem;--spd:150s"><div class="bgtrack"><span><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i></span><span aria-hidden="true"><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i></span></div></div><div class="bgline rev mhide" style="top:90%;font-size:3rem;--spd:100s"><div class="bgtrack"><span><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i></span><span aria-hidden="true"><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i><b class="w1">PUSHING</b><i>·</i><b class="w2">P</b><i>·</i><b class="w3">COMMUNITY</b><i>·</i></span></div></div></div>
 <canvas id="confetti" aria-hidden="true"></canvas>
 <div class="toast" id="toast" role="status" aria-live="polite">You made it to the end 🎉</div>
 <button class="theme-toggle" id="themeToggle" role="switch" aria-checked="false" aria-label="Toggle dark and light mode">
@@ -339,7 +358,7 @@ footer strong{color:var(--muted)}
 </div>
 <div class="wrap">
 <div class="hero">
-<span class="kicker">💊 All the popular GLP medications masterclass</span>
+<span class="kicker">💊 The popular GLP medications masterclass</span>
 <h1>Twenty-two compounds, <span class="grad">one hormone playbook</span></h1>
 <p class="lead">These medicines all work on <strong>hormones that control hunger, blood sugar, and how the body uses energy</strong>. Most are called GLP-1 drugs — but some hit extra hormone pathways. They're given as <strong>shots (usually weekly)</strong>, used mainly for <strong>type 2 diabetes or weight loss</strong> — and several are still in trials or only available in certain countries.</p>
 </div>
@@ -376,7 +395,7 @@ footer strong{color:var(--muted)}
 
 <section class="chapter" id="ch2">
 <div class="ch-head"><span class="ch-num">02</span><h2>The receptor map</h2></div>
-<p class="ch-sub">Where each of the 22 sits on the hormone map.</p>
+<p class="ch-sub">Where each of the nine sits on the hormone map.</p>
 <div class="card rv">
 <p>Think of it as <strong>five strategies</strong>, from simplest to most stacked:</p>
 <ul>
@@ -915,7 +934,7 @@ footer strong{color:var(--muted)}
 <footer id="pageFooter">
 <div class="wrap">
 <p><strong>The Popular GLP Medications Masterclass</strong> · An educational overview of twenty-two GLP-related compounds: mechanisms, trial numbers, side effects, and comparisons. Content is reworded from public sources for readability; it is not medical advice. Availability and approval vary by country — talk to your clinician.</p>
-<p style="margin-top:8px">Design: 22 muted drug colors · Dark mode default · Dots, confetti &amp; animations respect reduced-motion preferences.</p>
+<p style="margin-top:8px">Design: nine muted drug colors · Dark mode default · Dots, confetti &amp; animations respect reduced-motion preferences.</p>
 </div>
 </footer>
 <script>
